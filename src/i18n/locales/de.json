@@ -1,0 +1,95 @@
+{
+  "menu": {
+    "dataCollection": "Datenerfassung",
+    "dataProcessing": "Datenverarbeitung",
+    "dataStorage": "Datenspeicherung",
+    "dataAnalysis": "Datenanalyse",
+    "dataVisualization": "Datenvisualisierung",
+    "machineLearning": "Maschinelles Lernen",
+    "realTimeProcessing": "Echtzeitverarbeitung",
+    "batchProcessing": "Stapelverarbeitung"
+  },
+  "nodes": {
+    "dataSource": "Datenquelle",
+    "dataIngestion": "Datenaufnahme",
+    "dataCleaning": "Datenbereinigung",
+    "dataTransformation": "Datenumwandlung",
+    "dataValidation": "Datenvalidierung",
+    "dataWarehouse": "Data Warehouse",
+    "dataLake": "Data Lake",
+    "dataMart": "Data Mart",
+    "etlProcess": "ETL-Prozess",
+    "dataModeling": "Datenmodellierung",
+    "statisticalAnalysis": "Statistische Analyse",
+    "predictiveAnalysis": "Prädiktive Analyse",
+    "reportGeneration": "Berichtserstellung",
+    "dashboard": "Dashboard",
+    "chartVisualization": "Diagrammvisualisierung",
+    "mapVisualization": "Kartenvisualisierung",
+    "modelTraining": "Modelltraining",
+    "modelEvaluation": "Modellevaluierung",
+    "modelDeployment": "Modelleinführung",
+    "streamProcessing": "Stream-Verarbeitung",
+    "batchJob": "Stapelauftrag",
+    "scheduling": "Planung",
+    "monitoring": "Überwachung",
+    "custom": "Benutzerdefinierter Block"
+  },
+  "status": {
+    "completed": "Abgeschlossen",
+    "running": "Läuft",
+    "pending": "Ausstehend",
+    "failed": "Fehlgeschlagen",
+    "processing": "In Bearbeitung"
+  },
+  "button": {
+    "addBlock": "Block hinzufügen",
+    "resetOrder": "Reihenfolge zurücksetzen",
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "startFlow": "Prozess starten",
+    "resetFlow": "Prozess zurücksetzen"
+  },
+  "modal": {
+    "addCustomBlock": "Benutzerdefinierten Block hinzufügen"
+  },
+  "input": {
+    "blockName": "Blockname",
+    "blockIcon": "Icon (optional, Emoji oder Zeichen)",
+    "blockDesc": "Beschreibung (optional)"
+  },
+  "select": {
+    "insertToHead": "An den Anfang einfügen"
+  },
+  "progress": {
+    "currentProgress": "Aktueller Fortschritt"
+  },
+  "hint": {
+    "dragToReorder": "Knoten zum Neuordnen ziehen"
+  },
+
+  "flowInProgress": "Prozess läuft...",
+  "header": {
+    "title": "Big Data Workflow Demo",
+    "langEn": "EN",
+    "langZh": "中文",
+    "langJa": "日本語",
+    "langRu": "Русский",
+    "langDe": "Deutsch",
+    "switchToEn": "Auf Englisch umschalten",
+    "switchToZh": "Auf Chinesisch umschalten",
+    "switchToJa": "Auf Japanisch umschalten",
+    "switchToRu": "Auf Russisch umschalten",
+    "switchToDe": "Auf Deutsch umschalten"
+  },
+  "descriptions": {
+    "dataCollection": "Sammeln von Rohdaten aus verschiedenen Quellen.",
+    "dataProcessing": "Bereinigung, Umwandlung und Verarbeitung der gesammelten Daten.",
+    "dataStorage": "Speichern der verarbeiteten Daten in Datenbanken oder Data Warehouses.",
+    "dataAnalysis": "Analyse der gespeicherten Daten zur Gewinnung von Erkenntnissen.",
+    "dataVisualization": "Visualisierung der Analyseergebnisse mit Diagrammen und Grafiken.",
+    "machineLearning": "Erstellung und Vorhersage mit Machine-Learning-Modellen.",
+    "realTimeProcessing": "Verarbeitung und Analyse von Streaming-Daten in Echtzeit.",
+    "batchProcessing": "Stapelverarbeitung großer Datenmengen nach Zeitplan."
+  }
+} 

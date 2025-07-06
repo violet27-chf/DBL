@@ -1,0 +1,98 @@
+{
+  "menu": {
+    "dataCollection": "Data Collection",
+    "dataProcessing": "Data Processing",
+    "dataStorage": "Data Storage",
+    "dataAnalysis": "Data Analysis",
+    "dataVisualization": "Data Visualization",
+    "machineLearning": "Machine Learning",
+    "realtimeProcessing": "Realtime Processing",
+    "realTimeProcessing": "Real-time Processing",
+    "batchProcessing": "Batch Processing"
+  },
+  "node": {
+    "dataSource": "Data Source",
+    "dataSourceDesc": "Start point of data collection",
+    "dataIngestion": "Data Ingestion",
+    "dataIngestionDesc": "Import data into the system",
+    "dataCleaning": "Data Cleaning",
+    "dataCleaningDesc": "Clean and preprocess data"
+  },
+  "status": {
+    "completed": "Completed",
+    "running": "Running",
+    "pending": "Pending",
+    "failed": "Failed",
+    "processing": "Processing"
+  },
+  "button": {
+    "addBlock": "Add Block",
+    "resetOrder": "Reset Order",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "startFlow": "Start Flow",
+    "resetFlow": "Reset Flow"
+  },
+  "modal": {
+    "addCustomBlock": "Add Custom Block"
+  },
+  "input": {
+    "blockName": "Block Name",
+    "blockIcon": "Icon (optional, emoji or char)",
+    "blockDesc": "Description (optional)"
+  },
+  "select": {
+    "insertToHead": "Insert to Head"
+  },
+  "progress": {
+    "currentProgress": "Current Progress"
+  },
+  "hint": {
+    "dragToReorder": "Drag nodes to reorder"
+  },
+
+  "flowInProgress": "Flow in Progress...",
+  "header": {
+    "title": "Big Data Workflow Demo",
+    "langEn": "EN",
+    "langZh": "中文",
+    "switchToEn": "Switch to English",
+    "switchToZh": "切换到中文"
+  },
+  "descriptions": {
+    "dataCollection": "Collect raw data as the starting point of the big data workflow.",
+    "dataProcessing": "Clean, transform, and process the collected data.",
+    "dataStorage": "Store processed data in databases or data warehouses.",
+    "dataAnalysis": "Analyze stored data for insights and value.",
+    "dataVisualization": "Visualize analysis results with charts and graphs.",
+    "machineLearning": "Build and predict with machine learning models.",
+    "realTimeProcessing": "Process and analyze real-time streaming data.",
+    "batchProcessing": "Process large volumes of data in scheduled batches."
+  },
+  "nodes": {
+    "dataSource": "Data Source",
+    "dataIngestion": "Data Ingestion",
+    "dataCleaning": "Data Cleaning",
+    "dataTransformation": "Data Transformation",
+    "dataValidation": "Data Validation",
+    "dataWarehouse": "Data Warehouse",
+    "dataLake": "Data Lake",
+    "dataMart": "Data Mart",
+    "etlProcess": "ETL Process",
+    "dataModeling": "Data Modeling",
+    "statisticalAnalysis": "Statistical Analysis",
+    "predictiveAnalysis": "Predictive Analysis",
+    "reportGeneration": "Report Generation",
+    "dashboard": "Dashboard",
+    "chartVisualization": "Chart Visualization",
+    "mapVisualization": "Map Visualization",
+    "modelTraining": "Model Training",
+    "modelEvaluation": "Model Evaluation",
+    "modelDeployment": "Model Deployment",
+    "streamProcessing": "Stream Processing",
+    "batchJob": "Batch Job",
+    "scheduling": "Scheduling",
+    "monitoring": "Monitoring",
+    "custom": "Custom Node"
+  }
+} 

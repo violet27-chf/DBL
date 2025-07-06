@@ -1,0 +1,91 @@
+{
+  "menu": {
+    "dataCollection": "データ収集",
+    "dataProcessing": "データ処理",
+    "dataStorage": "データ保存",
+    "dataAnalysis": "データ分析",
+    "dataVisualization": "データ可視化",
+    "machineLearning": "機械学習",
+    "realTimeProcessing": "リアルタイム処理",
+    "batchProcessing": "バッチ処理"
+  },
+  "nodes": {
+    "dataSource": "データソース",
+    "dataIngestion": "データ取り込み",
+    "dataCleaning": "データクレンジング",
+    "dataTransformation": "データ変換",
+    "dataValidation": "データ検証",
+    "dataWarehouse": "データウェアハウス",
+    "dataLake": "データレイク",
+    "dataMart": "データマート",
+    "etlProcess": "ETL処理",
+    "dataModeling": "データモデリング",
+    "statisticalAnalysis": "統計分析",
+    "predictiveAnalysis": "予測分析",
+    "reportGeneration": "レポート生成",
+    "dashboard": "ダッシュボード",
+    "chartVisualization": "チャート可視化",
+    "mapVisualization": "マップ可視化",
+    "modelTraining": "モデル訓練",
+    "modelEvaluation": "モデル評価",
+    "modelDeployment": "モデル展開",
+    "streamProcessing": "ストリーム処理",
+    "batchJob": "バッチジョブ",
+    "scheduling": "スケジューリング",
+    "monitoring": "モニタリング",
+    "custom": "カスタムノード"
+  },
+  "status": {
+    "completed": "完了",
+    "running": "実行中",
+    "pending": "待機中",
+    "failed": "失敗",
+    "processing": "処理中"
+  },
+  "button": {
+    "addBlock": "機能ブロック追加",
+    "resetOrder": "順序リセット",
+    "ok": "OK",
+    "cancel": "キャンセル",
+    "startFlow": "フロー開始",
+    "resetFlow": "フローリセット"
+  },
+  "modal": {
+    "addCustomBlock": "カスタム機能ブロック追加"
+  },
+  "input": {
+    "blockName": "ブロック名",
+    "blockIcon": "アイコン（任意、絵文字または1文字）",
+    "blockDesc": "説明（任意）"
+  },
+  "select": {
+    "insertToHead": "最前に挿入"
+  },
+  "progress": {
+    "currentProgress": "現在の進捗"
+  },
+  "hint": {
+    "dragToReorder": "ノードをドラッグして並び替え"
+  },
+
+  "flowInProgress": "フロー進行中...",
+  "header": {
+    "title": "ビッグデータワークフロー デモ",
+    "langEn": "EN",
+    "langZh": "中文",
+    "langJa": "日本語",
+    "switchToEn": "英語に切替",
+    "switchToZh": "中国語に切替",
+    "switchToJa": "日本語に切替"
+  },
+  "descriptions": {
+    "dataCollection": "様々なデータソースから生データを収集します。",
+    "dataProcessing": "収集したデータをクレンジング、変換、処理します。",
+    "dataStorage": "処理済みデータをデータベースやデータウェアハウスに保存します。",
+    "dataAnalysis": "保存されたデータを分析し、価値を発掘します。",
+    "dataVisualization": "分析結果をチャートなどで可視化します。",
+    "machineLearning": "データを使って機械学習モデルを構築・予測します。",
+    "realTimeProcessing": "リアルタイムストリームデータを処理・分析します。",
+    "batchProcessing": "大量データを定期的にバッチ処理します。"
+  }
+} 

@@ -1,0 +1,98 @@
+{
+  "menu": {
+    "dataCollection": "数据采集",
+    "dataProcessing": "数据处理",
+    "dataStorage": "数据存储",
+    "dataAnalysis": "数据分析",
+    "dataVisualization": "数据可视化",
+    "machineLearning": "机器学习",
+    "realtimeProcessing": "实时处理",
+    "realTimeProcessing": "实时处理",
+    "batchProcessing": "批量处理"
+  },
+  "node": {
+    "dataSource": "数据源",
+    "dataSourceDesc": "数据采集的起点",
+    "dataIngestion": "数据摄入",
+    "dataIngestionDesc": "将数据导入系统",
+    "dataCleaning": "数据清洗",
+    "dataCleaningDesc": "清理和预处理数据"
+  },
+  "status": {
+    "completed": "已完成",
+    "running": "运行中",
+    "pending": "等待中",
+    "failed": "失败",
+    "processing": "处理中"
+  },
+  "button": {
+    "addBlock": "添加功能块",
+    "resetOrder": "重置顺序",
+    "ok": "确定",
+    "cancel": "取消",
+    "startFlow": "开始展示流程",
+    "resetFlow": "重置流程"
+  },
+  "modal": {
+    "addCustomBlock": "添加自定义功能块"
+  },
+  "input": {
+    "blockName": "功能块名称",
+    "blockIcon": "图标（可选，emoji或单字符）",
+    "blockDesc": "描述（可选）"
+  },
+  "select": {
+    "insertToHead": "插入到最前面"
+  },
+  "progress": {
+    "currentProgress": "当前进度"
+  },
+  "hint": {
+    "dragToReorder": "拖拽节点重新排列"
+  },
+
+  "flowInProgress": "流程进行中...",
+  "header": {
+    "title": "大数据工作流程演示",
+    "langEn": "EN",
+    "langZh": "中文",
+    "switchToEn": "切换到英文",
+    "switchToZh": "Switch to Chinese"
+  },
+  "descriptions": {
+    "dataCollection": "采集原始数据，作为大数据流程的起点。",
+    "dataProcessing": "对采集到的数据进行清洗、转换和处理。",
+    "dataStorage": "将处理后的数据存储到数据库或数据仓库。",
+    "dataAnalysis": "对存储的数据进行统计和分析，挖掘价值。",
+    "dataVisualization": "将分析结果以图表等方式可视化展示。",
+    "machineLearning": "利用数据进行机器学习建模和预测。",
+    "realTimeProcessing": "对实时流数据进行处理和分析。",
+    "batchProcessing": "对大批量数据进行定时批量处理。"
+  },
+  "nodes": {
+    "dataSource": "数据源",
+    "dataIngestion": "数据摄入",
+    "dataCleaning": "数据清洗",
+    "dataTransformation": "数据转换",
+    "dataValidation": "数据验证",
+    "dataWarehouse": "数据仓库",
+    "dataLake": "数据湖",
+    "dataMart": "数据集市",
+    "etlProcess": "ETL处理",
+    "dataModeling": "数据建模",
+    "statisticalAnalysis": "统计分析",
+    "predictiveAnalysis": "预测分析",
+    "reportGeneration": "报告生成",
+    "dashboard": "仪表板",
+    "chartVisualization": "图表可视化",
+    "mapVisualization": "地图可视化",
+    "modelTraining": "模型训练",
+    "modelEvaluation": "模型评估",
+    "modelDeployment": "模型部署",
+    "streamProcessing": "流处理",
+    "batchJob": "批处理作业",
+    "scheduling": "任务调度",
+    "monitoring": "监控告警",
+    "custom": "自定义节点"
+  }
+} 
