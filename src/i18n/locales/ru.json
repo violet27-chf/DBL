@@ -1,0 +1,93 @@
+{
+  "menu": {
+    "dataCollection": "Сбор данных",
+    "dataProcessing": "Обработка данных",
+    "dataStorage": "Хранение данных",
+    "dataAnalysis": "Анализ данных",
+    "dataVisualization": "Визуализация данных",
+    "machineLearning": "Машинное обучение",
+    "realTimeProcessing": "Обработка в реальном времени",
+    "batchProcessing": "Пакетная обработка"
+  },
+  "nodes": {
+    "dataSource": "Источник данных",
+    "dataIngestion": "Загрузка данных",
+    "dataCleaning": "Очистка данных",
+    "dataTransformation": "Преобразование данных",
+    "dataValidation": "Валидация данных",
+    "dataWarehouse": "Хранилище данных",
+    "dataLake": "Озеро данных",
+    "dataMart": "Март данных",
+    "etlProcess": "ETL-процесс",
+    "dataModeling": "Моделирование данных",
+    "statisticalAnalysis": "Статистический анализ",
+    "predictiveAnalysis": "Прогнозный анализ",
+    "reportGeneration": "Генерация отчетов",
+    "dashboard": "Дашборд",
+    "chartVisualization": "Визуализация графиков",
+    "mapVisualization": "Визуализация карт",
+    "modelTraining": "Обучение модели",
+    "modelEvaluation": "Оценка модели",
+    "modelDeployment": "Внедрение модели",
+    "streamProcessing": "Потоковая обработка",
+    "batchJob": "Пакетная задача",
+    "scheduling": "Планирование",
+    "monitoring": "Мониторинг",
+    "custom": "Пользовательский блок"
+  },
+  "status": {
+    "completed": "Завершено",
+    "running": "Выполняется",
+    "pending": "В ожидании",
+    "failed": "Ошибка",
+    "processing": "Обрабатывается"
+  },
+  "button": {
+    "addBlock": "Добавить блок",
+    "resetOrder": "Сбросить порядок",
+    "ok": "ОК",
+    "cancel": "Отмена",
+    "startFlow": "Запустить процесс",
+    "resetFlow": "Сбросить процесс"
+  },
+  "modal": {
+    "addCustomBlock": "Добавить пользовательский блок"
+  },
+  "input": {
+    "blockName": "Имя блока",
+    "blockIcon": "Иконка (опционально, эмодзи или символ)",
+    "blockDesc": "Описание (опционально)"
+  },
+  "select": {
+    "insertToHead": "Вставить в начало"
+  },
+  "progress": {
+    "currentProgress": "Текущий прогресс"
+  },
+  "hint": {
+    "dragToReorder": "Перетащите узлы для изменения порядка"
+  },
+
+  "flowInProgress": "Процесс выполняется...",
+  "header": {
+    "title": "Демонстрация рабочего процесса Big Data",
+    "langEn": "EN",
+    "langZh": "中文",
+    "langJa": "日本語",
+    "langRu": "Русский",
+    "switchToEn": "Переключить на английский",
+    "switchToZh": "Переключить на китайский",
+    "switchToJa": "Переключить на японский",
+    "switchToRu": "Переключить на русский"
+  },
+  "descriptions": {
+    "dataCollection": "Сбор исходных данных из различных источников.",
+    "dataProcessing": "Очистка, преобразование и обработка собранных данных.",
+    "dataStorage": "Сохранение обработанных данных в базах данных или хранилищах.",
+    "dataAnalysis": "Анализ сохраненных данных для получения ценной информации.",
+    "dataVisualization": "Визуализация результатов анализа с помощью графиков и диаграмм.",
+    "machineLearning": "Построение и прогнозирование с помощью моделей машинного обучения.",
+    "realTimeProcessing": "Обработка и анализ потоковых данных в реальном времени.",
+    "batchProcessing": "Пакетная обработка больших объемов данных по расписанию."
+  }
+} 

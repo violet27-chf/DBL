@@ -1,0 +1,97 @@
+{
+  "menu": {
+    "dataCollection": "डेटा संग्रह",
+    "dataProcessing": "डेटा प्रोसेसिंग",
+    "dataStorage": "डेटा भंडारण",
+    "dataAnalysis": "डेटा विश्लेषण",
+    "dataVisualization": "डेटा विज़ुअलाइज़ेशन",
+    "machineLearning": "मशीन लर्निंग",
+    "realTimeProcessing": "रीयल-टाइम प्रोसेसिंग",
+    "batchProcessing": "बैच प्रोसेसिंग"
+  },
+  "nodes": {
+    "dataSource": "डेटा स्रोत",
+    "dataIngestion": "डेटा इनजेशन",
+    "dataCleaning": "डेटा सफाई",
+    "dataTransformation": "डेटा ट्रांसफॉर्मेशन",
+    "dataValidation": "डेटा वैलिडेशन",
+    "dataWarehouse": "डेटा वेयरहाउस",
+    "dataLake": "डेटा लेक",
+    "dataMart": "डेटा मार्ट",
+    "etlProcess": "ETL प्रक्रिया",
+    "dataModeling": "डेटा मॉडलिंग",
+    "statisticalAnalysis": "सांख्यिकीय विश्लेषण",
+    "predictiveAnalysis": "पूर्वानुमान विश्लेषण",
+    "reportGeneration": "रिपोर्ट जनरेशन",
+    "dashboard": "डैशबोर्ड",
+    "chartVisualization": "चार्ट विज़ुअलाइज़ेशन",
+    "mapVisualization": "मानचित्र विज़ुअलाइज़ेशन",
+    "modelTraining": "मॉडल प्रशिक्षण",
+    "modelEvaluation": "मॉडल मूल्यांकन",
+    "modelDeployment": "मॉडल परिनियोजन",
+    "streamProcessing": "स्ट्रीम प्रोसेसिंग",
+    "batchJob": "बैच जॉब",
+    "scheduling": "अनुसूची",
+    "monitoring": "मॉनिटरिंग",
+    "custom": "कस्टम ब्लॉक"
+  },
+  "status": {
+    "completed": "पूर्ण",
+    "running": "चल रहा है",
+    "pending": "लंबित",
+    "failed": "असफल",
+    "processing": "प्रोसेसिंग"
+  },
+  "button": {
+    "addBlock": "ब्लॉक जोड़ें",
+    "resetOrder": "क्रम रीसेट करें",
+    "ok": "ठीक",
+    "cancel": "रद्द करें",
+    "startFlow": "प्रक्रिया प्रारंभ करें",
+    "resetFlow": "प्रक्रिया रीसेट करें"
+  },
+  "modal": {
+    "addCustomBlock": "कस्टम ब्लॉक जोड़ें"
+  },
+  "input": {
+    "blockName": "ब्लॉक नाम",
+    "blockIcon": "आइकन (वैकल्पिक, इमोजी या अक्षर)",
+    "blockDesc": "विवरण (वैकल्पिक)"
+  },
+  "select": {
+    "insertToHead": "सबसे आगे जोड़ें"
+  },
+  "progress": {
+    "currentProgress": "वर्तमान प्रगति"
+  },
+  "hint": {
+    "dragToReorder": "क्रम बदलने के लिए खींचें"
+  },
+
+  "flowInProgress": "प्रक्रिया चल रही है...",
+  "header": {
+    "title": "बिग डेटा वर्कफ़्लो डेमो",
+    "langEn": "EN",
+    "langZh": "中文",
+    "langJa": "日本語",
+    "langRu": "Русский",
+    "langDe": "Deutsch",
+    "langHi": "हिन्दी",
+    "switchToEn": "अंग्रेज़ी में बदलें",
+    "switchToZh": "चीनी में बदलें",
+    "switchToJa": "जापानी में बदलें",
+    "switchToRu": "रूसी में बदलें",
+    "switchToDe": "जर्मन में बदलें",
+    "switchToHi": "हिन्दी में बदलें"
+  },
+  "descriptions": {
+    "dataCollection": "विभिन्न स्रोतों से कच्चा डेटा एकत्र करना।",
+    "dataProcessing": "एकत्रित डेटा की सफाई, रूपांतरण और प्रोसेसिंग।",
+    "dataStorage": "प्रोसेस्ड डेटा को डेटाबेस या वेयरहाउस में संग्रहित करना।",
+    "dataAnalysis": "संग्रहित डेटा का विश्लेषण कर मूल्य निकालना।",
+    "dataVisualization": "विश्लेषण परिणामों को चार्ट आदि में दिखाना।",
+    "machineLearning": "डेटा का उपयोग कर मशीन लर्निंग मॉडल बनाना और पूर्वानुमान लगाना।",
+    "realTimeProcessing": "रीयल-टाइम स्ट्रीम डेटा की प्रोसेसिंग और विश्लेषण।",
+    "batchProcessing": "बड़े डेटा का बैच में समय-समय पर प्रोसेसिंग।"
+  }
+} 
