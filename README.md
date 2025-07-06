@@ -1,107 +1,175 @@
-# 大数据工作流程演示应用
+# DBL - 大数据工作流程动态展示应用
 
-这是一个基于React和Electron的大数据工作流程可视化演示应用，用于展示各种大数据处理流程。
+[English](#english) | [中文](#chinese)
 
-## 功能特性
+---
 
-- 🎯 **多种工作流程**：包含数据采集、数据处理、数据存储、数据分析、数据可视化、机器学习、实时处理和批量处理等8种典型大数据工作流程
-- 🎨 **美观的界面**：使用Ant Design组件库，提供现代化的用户界面
-- 🌐 **多语言支持**：支持中文和英文切换
-- ⚡ **动画效果**：流程节点具有动态高亮和动画效果
-- 📱 **Electron应用**：可打包成桌面应用
-- 🔄 **实时状态**：显示流程节点的实时状态（运行中、已完成、等待中等）
+## English
 
-## 技术栈
+### Big Data Workflow Dynamic Display Application
 
-- **前端框架**：React 18 + TypeScript
-- **UI组件库**：Ant Design
-- **流程图**：React Flow
-- **样式**：Styled Components
-- **国际化**：i18next
-- **桌面应用**：Electron
-- **构建工具**：Create React App
+A modern, interactive React+Electron desktop application for visualizing big data workflows with dynamic animations, multi-language support, and beautiful UI effects.
 
-## 安装和运行
+### ✨ Features
 
-### 开发环境
+- **Dynamic Flow Visualization**: Interactive workflow diagrams with animated nodes and connections
+- **Multi-language Support**: Supports 6 languages (Chinese, English, Japanese, Russian, German, Hindi)
+- **Beautiful UI**: Modern interface with glassmorphism effects, gradients, and smooth animations
+- **Interactive Nodes**: Drag-and-drop functionality, dynamic highlighting, and custom node insertion
+- **Desktop Application**: Packaged as Electron app for cross-platform compatibility
+- **Real-time Animations**: Flowing connection lines, node highlighting, and smooth transitions
+
+### 🚀 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run electron-dev
+
+# Build for production
+npm run build
+
+# Package as Electron app
+npm run electron-pack
+```
+
+### 🛠️ Tech Stack
+
+- **Frontend**: React 18, TypeScript, Styled Components
+- **Desktop**: Electron
+- **Flow Visualization**: React Flow
+- **Internationalization**: i18next
+- **Styling**: CSS3 with modern effects (glassmorphism, gradients)
+
+### 📁 Project Structure
+
+```
+DBL/
+├── bigdata-flow-demo/          # Main React application
+│   ├── src/
+│   │   ├── components/         # React components
+│   │   ├── i18n/              # Internationalization files
+│   │   └── styles/            # Styled components
+│   ├── public/                # Static assets
+│   └── package.json           # React app dependencies
+├── package.json               # Root package.json
+└── README.md                  # This file
+```
+
+### 🌟 Key Features
+
+1. **Dynamic Workflow Display**: All workflow nodes displayed in a single comprehensive diagram
+2. **Language Switching**: One-click language switching with flag icons
+3. **Interactive Elements**: Drag nodes, add custom nodes, reset workflow order
+4. **Visual Effects**: Glassmorphism, gradients, shadows, and smooth animations
+5. **Responsive Design**: Adapts to different screen sizes and resolutions
+
+### 📸 Screenshots
+
+*[Screenshots will be added here]*
+
+### 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Chinese
+
+### 大数据工作流程动态展示应用
+
+一个现代化的、交互式的 React+Electron 桌面应用程序，用于可视化大数据工作流程，具有动态动画、多语言支持和美观的 UI 效果。
+
+### ✨ 功能特性
+
+- **动态流程可视化**: 具有动画节点和连接的交互式工作流程图
+- **多语言支持**: 支持 6 种语言（中文、英文、日文、俄文、德文、印地语）
+- **美观界面**: 具有毛玻璃效果、渐变和流畅动画的现代化界面
+- **交互式节点**: 拖拽功能、动态高亮和自定义节点插入
+- **桌面应用**: 打包为 Electron 应用，支持跨平台兼容性
+- **实时动画**: 流动的连接线、节点高亮和平滑过渡
+
+### 🚀 快速开始
 
 ```bash
 # 安装依赖
 npm install
 
 # 启动开发服务器
-npm start
-
-# 启动Electron开发模式
 npm run electron-dev
-```
 
-### 打包应用
-
-```bash
-# 构建React应用
+# 构建生产版本
 npm run build
 
-# 打包Electron应用
+# 打包为 Electron 应用
 npm run electron-pack
 ```
 
-## 项目结构
+### 🛠️ 技术栈
+
+- **前端**: React 18, TypeScript, Styled Components
+- **桌面端**: Electron
+- **流程可视化**: React Flow
+- **国际化**: i18next
+- **样式**: CSS3 现代效果（毛玻璃、渐变）
+
+### 📁 项目结构
 
 ```
-src/
-├── components/          # React组件
-│   ├── FlowNode.tsx     # 流程节点组件
-│   ├── FlowDisplay.tsx  # 流程展示组件
-│   └── FlowMenu.tsx     # 菜单组件
-├── data/               # 数据配置
-│   └── flowData.ts     # 流程数据
-├── i18n/               # 国际化
-│   └── index.ts        # 语言配置
-├── types/              # TypeScript类型定义
-│   └── flow.ts         # 流程相关类型
-├── App.tsx             # 主应用组件
-└── index.tsx           # 应用入口
+DBL/
+├── bigdata-flow-demo/          # 主 React 应用
+│   ├── src/
+│   │   ├── components/         # React 组件
+│   │   ├── i18n/              # 国际化文件
+│   │   └── styles/            # 样式组件
+│   ├── public/                # 静态资源
+│   └── package.json           # React 应用依赖
+├── package.json               # 根 package.json
+└── README.md                  # 本文件
 ```
 
-## 工作流程说明
+### 🌟 核心功能
 
-### 1. 数据采集 (Data Collection)
-- 数据源 → 数据摄入 → 数据清洗
+1. **动态工作流展示**: 所有工作流节点在单一综合图表中展示
+2. **语言切换**: 一键语言切换，带国旗图标
+3. **交互元素**: 拖拽节点、添加自定义节点、重置工作流顺序
+4. **视觉效果**: 毛玻璃、渐变、阴影和平滑动画
+5. **响应式设计**: 适配不同屏幕尺寸和分辨率
 
-### 2. 数据处理 (Data Processing)
-- 数据转换 → 数据验证 → ETL处理 → 数据建模
+### 📸 截图
 
-### 3. 数据存储 (Data Storage)
-- 数据仓库 → 数据湖 → 数据集市
+*[截图将在此处添加]*
 
-### 4. 数据分析 (Data Analysis)
-- 统计分析 → 预测分析 → 报告生成
+### 🤝 贡献
 
-### 5. 数据可视化 (Data Visualization)
-- 仪表板 → 图表可视化 → 地图可视化
+1. Fork 本仓库
+2. 创建您的功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 打开 Pull Request
 
-### 6. 机器学习 (Machine Learning)
-- 模型训练 → 模型评估 → 模型部署
+### 📄 许可证
 
-### 7. 实时处理 (Real-time Processing)
-- 流处理 → 监控告警
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
 
-### 8. 批量处理 (Batch Processing)
-- 批处理作业 → 任务调度 → 监控告警
+---
 
-## 状态说明
+## 📞 Contact
 
-- 🟢 **已完成** (Completed)：流程节点已完成处理
-- 🔵 **运行中** (Running)：流程节点正在执行，带有动画效果
-- 🟡 **处理中** (Processing)：流程节点正在处理中
-- 🔴 **失败** (Failed)：流程节点执行失败
-- ⚪ **等待中** (Pending)：流程节点等待执行
+- **GitHub**: [violet27-chf/DBL](https://github.com/violet27-chf/DBL)
+- **Email**: [Your Email]
+- **Website**: [Your Website]
 
-## 开发说明
+---
 
-这是一个演示应用，主要用于展示大数据工作流程的可视化效果，不包含实际的大数据处理功能。
-
-## 许可证
-
-MIT License 
+*Made with ❤️ for big data workflow visualization* 
